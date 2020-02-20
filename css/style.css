@@ -10,7 +10,7 @@ header{
 	height: 100px;
 }
 .logo-section{
-	width: 7%;
+	width: 10%;
 }
 
 .container{
@@ -39,12 +39,12 @@ nav a{
 }
 
 nav a:hover{
-	background: #003c77;
+	background: #ff9a81e6;
 	border-radius: 10px;
 }
 
 section.banner-section{
-	background-image: url("../img/bg2.jpeg");
+	background-image: url("../img/bg1.jpeg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: scroll;
@@ -55,14 +55,15 @@ section.banner-section{
 section.banner-section h1{
 	text-align: center;
 	font-size: 150px;
-	margin-left: -100px;
+	margin-left: auto;
+	margin-right: auto;
 	text-transform: uppercase;
 	border: 1px solid #00000;
-	color: #ff7b31;
+	color: #1d1c1c;
 }
 
 section.aboutus-section{
-	background-color: #fee85f ;
+	background-color: #ff8776b8;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: scroll;
@@ -72,12 +73,20 @@ section.aboutus-section{
 }
 
 section.aboutus-section h2{
-	font-size: 30px;
+	font-size: 90px;
 	margin-top: 0px;
 	text-align: center;
 	color: black;
 }
 
+.bt{
+	font-size: 25px;
+	color: purple;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	border-radius: 20px;
+}
 
 div.section2-content{
 	display: inline-block;
@@ -85,9 +94,11 @@ div.section2-content{
 }
 
 div.section2-content img{
- 	float: right;
-	height: 300px;
-	padding-bottom: 150px
+	height: 337px;
+    width: 566px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 }
 
 div.section2-content p{
@@ -98,7 +109,8 @@ div.section2-content p{
 }
 
 section.service-section{
-	background-color:#7e91ea ;
+	background-color: #ea7679db;
+	background-size: cover;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: scroll;
@@ -108,7 +120,7 @@ section.service-section{
 }
 
 section.service-section h3{
-	font-size: 30px;
+	font-size: 90px;
 	margin-top: 0px;
 	text-align: center;
 	color: black;
